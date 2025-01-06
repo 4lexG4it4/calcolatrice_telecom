@@ -1,0 +1,152 @@
+/* Sfondo generale scuro e testo in bianco */
+body {
+    background-color: #1c1d1f;
+    font-family: Arial, sans-serif;
+    color: #f8f9fa;
+}
+
+/* Contenitore centrale */
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 40px 15px;
+}
+
+/* Card con sfondo scuro e testo chiaro */
+.card {
+    background-color: #2d3033;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 12px;
+}
+
+/* Intestazione card con blu intenso */
+.card-header {
+    background-color: #045dbd;
+    color: white;
+    text-align: center;
+    font-size: 1.25rem;
+    padding: 15px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+/* Interno della card */
+.card-body {
+    padding: 30px;
+}
+
+/* Etichette dei campi del form con testo chiaro */
+.form-group label {
+    font-weight: 600;
+    color: #ced4da;
+}
+
+/* Bottoni principali */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Bottoni di reset */
+.btn-secondary {
+    background-color: #7a838a;
+    border: none;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+.btn-primary {
+    background-color: #045dbd;
+    border: none;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+/* Titolo principale con colore blu acceso */
+h1 {
+    font-weight: 700;
+    color: #00b0ff;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Sottotitolo per la sezione del risultato */
+h3 {
+    font-weight: 600;
+    color: #ced4da;
+    margin-top: 40px;
+}
+
+/* Sezione del risultato con bordo e sfondo grigio scuro */
+#result {
+    font-size: 1.1rem;
+    color: #f8f9fa;
+    border: 1px solid #ced4da;
+    background-color: #495057;
+    border-radius: 8px;
+}
+
+.container {
+    margin-top: 0px;
+}
+/* Navbar Personalizzata */
+.custom-navbar {
+    background: linear-gradient(90deg, #045dbd, #007bff);
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Sposta la scritta a sinistra */
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #f8f9fa;
+    font-weight: bold;
+    margin-left: 0; /* Assicura che il margine sinistro sia zero */
+    text-align: left; /* Allinea il testo a sinistra */
+}
+
+.navbar-brand:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-link {
+    color: #f8f9fa;
+    margin: 0 10px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"%3E%3Cpath stroke="rgba%287, 123, 255, 0.85%29" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+/* Margine superiore aggiuntivo per evitare che il contenuto si sovrapponga alla navbar */
+.container {
+    margin-top: 0px;
+}
+a{
+    color: blue; /* Colore del testo */
+    text-decoration: none; /* Rimuove la sottolineatura */
+}
+
