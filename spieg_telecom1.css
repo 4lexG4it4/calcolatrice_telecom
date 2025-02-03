@@ -28,7 +28,7 @@ h1 {
 
 /* Intestazione dei contenitori */
 .card-header {
-    background-color: #007bff;
+    background-color: #0056b3;
     color: white;
     font-weight: bold;
     font-size: 1.25rem;
@@ -53,10 +53,11 @@ h1 {
     text-decoration: none;
     border-radius: 5px;
     display: inline-block;
+    white-space: nowrap;
 }
 
 .btn-primary {
-    background-color: #007bff;
+    background-color: #0056b3;
     color: white;
     text-decoration: none;
     transition: background-color 0.3s ease;
@@ -70,18 +71,25 @@ h1 {
     float: right;
 }
 
-/* Allinea i bottoni all'interno di un contenitore con flex */
-.button-container {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
+/* Stile per i bottoni */
+.button-container .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    flex-shrink: 0; /* Evita che i bottoni si riducano di dimensione */
 }
 
-.btn-right {
-    margin-left: auto; /* spinge il bottone a destra */
+.button-container .btn:hover {
+    background-color: #007bff;
 }
 
-/* Aggiungi una rottura di riga per il testo */
-.line-break {
-    display: block;
+/* Stile per il contenuto principale */
+.content {
+    margin-left: 270px; /* Evita che il contenuto venga coperto dalla sidebar */
+    padding: 20px;
 }
+

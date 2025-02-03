@@ -66,6 +66,25 @@ h1 {
     background-color: #0056b3;
 }
 
+.btn-right {
+    float: right;
+}
+
+/* Allinea i bottoni all'interno di un contenitore con flex */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btn-right {
+    margin-left: auto; /* spinge il bottone a destra */
+}
+
+/* Aggiungi una rottura di riga per il testo */
+.line-break {
+    display: block;
+}
 /* Barra di scorrimento orizzontale con bottoni all'interno */
 .button-container {
     display: flex;
@@ -74,7 +93,7 @@ h1 {
     padding: 10px 0;
     gap: 10px;
     scrollbar-width: thin;
-    scrollbar-color: #007bff #2d3033;
+    scrollbar-color: #0068d9 #2d3033;
 }
 
 .button-container::-webkit-scrollbar {
@@ -94,3 +113,50 @@ h1 {
     flex-shrink: 0;
     text-align: center;
 }
+
+/*calcolatrice*/
+.calculator {
+    background-color: #2d3033;
+    color: #f8f9fa;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 40px;
+}
+.calculator h2 {
+    color: #00b0ff;
+    text-align: center;
+}
+.calculator label {
+    display: block;
+    margin: 10px 0 5px;
+}
+.calculator input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #1c1d1f;
+    color: #f8f9fa;
+}
+.calculator button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.calculator button:hover {
+    background-color: #007bff;
+}
+.calculator .results {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #1c1d1f;
+    border-radius: 5px;
+}
+

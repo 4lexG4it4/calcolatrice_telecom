@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informazioni sul principio di sovrapposizione degli effetti</title>
+    <link rel="stylesheet" href="../css/spiegazioni_telecom/spieg_telecom2.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Principio di Sovrapposizione degli Effetti</h1>
+
+    <div class="card">
+        <div class="card-header">Spiegazione del principio di sovrapposizione degli effetti</div>
+        <div class="card-body">
+            <p>
+                Il <strong>Principio di Sovrapposizione degli Effetti</strong> è un sistema lineare con più segnali che si sommano senza alterarsi: 
+                la risposta totale è la somma delle singole risposte. Questo principio è essenziale in telecomunicazioni per analizzare segnali, filtri e interferenze.
+            </p>
+            <img src="https://www.electroyou.it/fidocad/cache/00fb3ee1cf095909bf09e918239ea05dd0723678_3.png" alt="Principio di Sovrapposizione degli Effetti" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+        </div>
+    </div>
+
+    <!-- Contenitore per i bottoni -->
+    <div class="button-container">
+        <a href="../doc/spi_telecom0.html" class="btn btn-primary mt-3">
+            <span>Spiegazione</span><span class="line-break">Tensione, Resistenza, Corrente</span>
+        </a>
+        <a href="../index.html" class="btn btn-primary btn-right">Torna alla Calcolatrice</a>
+        <a href="../doc/spi_telecom1.html" class="btn btn-primary mt-3">Legge di Kirchhoff</a>
+    </div>
+</script>
+
+    <!-- Calcolatrice -->
+    <div class="calculator">
+        <h2>Calcolatrice del Principio di Sovrapposizione</h2>
+        <form id="calculator-form">
+            <label for="r1">Valore Resistenza 1 (R1 in Ohm):</label>
+            <input type="number" id="r1" name="r1" required>
+
+            <label for="r2">Valore Resistenza 2 (R2 in Ohm):</label>
+            <input type="number" id="r2" name="r2" required>
+
+            <label for="r3">Valore Resistenza 3 (R3 in Ohm):</label>
+            <input type="number" id="r3" name="r3" required>
+
+            <label for="v1">Valore Tensione 1 (V1 in Volt):</label>
+            <input type="number" id="v1" name="v1" required>
+
+            <label for="v2">Valore Tensione 2 (V2 in Volt):</label>
+            <input type="number" id="v2" name="v2" required>
+
+            <button type="button" onclick="calculateResults()">Calcola</button>
+        </form>
+
+        <div class="results" id="results"></div>
+    </div>
+</div>
+
+<script src="telecom1.js"></script>
+</body>
+</html>
